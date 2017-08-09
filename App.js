@@ -22,7 +22,7 @@ const App = () => {
             <Scene key="root" hideNavBar={true} navigationBarStyle={{backgroundColor: '#3D51B4'}} titleStyle={{color:'#FFFFFF'}}>
                 {/* Tab Container */}
                 <Scene
-                    key="tabbar"
+                    key="homeTabBar"
                     tabs={true}
                     tabBarStyle={{ backgroundColor: '#3D51B4',marginBottom:-2}}
                     tabBarPosition="bottom"
